@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Tempo de geração: 07/05/2019 às 23:05
+-- Tempo de geração: 07/05/2019 às 23:32
 -- Versão do servidor: 5.7.23
 -- Versão do PHP: 7.2.10
 
@@ -13,6 +13,22 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `manix`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `agenda`
+--
+
+CREATE TABLE `agenda` (
+  `id_agenda` int(11) NOT NULL,
+  `titulo` varchar(55) NOT NULL,
+  `criado_em` datetime NOT NULL,
+  `data_inicio` datetime NOT NULL,
+  `data_fim` datetime NOT NULL,
+  `tipo` enum('cliente','prospect') NOT NULL,
+  `id_tipo` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -50,6 +66,37 @@ CREATE TABLE `clientes_contatos` (
 -- --------------------------------------------------------
 
 --
+-- Estrutura para tabela `clientes_enderecos`
+--
+
+CREATE TABLE `clientes_enderecos` (
+  `id_cliente_endereco` int(11) NOT NULL,
+  `id_cliente` int(11) NOT NULL,
+  `titulo` varchar(55) NOT NULL,
+  `rua` varchar(55) NOT NULL,
+  `bairro` varchar(55) NOT NULL,
+  `cidade` varchar(55) NOT NULL,
+  `uf` varchar(55) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `lembretes`
+--
+
+CREATE TABLE `lembretes` (
+  `id_lembrete` int(11) NOT NULL,
+  `titulo` varchar(55) NOT NULL,
+  `criado_em` datetime NOT NULL,
+  `data` datetime NOT NULL,
+  `tipo` enum('cliente','prospect') NOT NULL,
+  `id_tipo` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura para tabela `prospects`
 --
 
@@ -82,6 +129,12 @@ CREATE TABLE `prospects_contato` (
 --
 
 --
+-- Índices de tabela `agenda`
+--
+ALTER TABLE `agenda`
+  ADD PRIMARY KEY (`id_agenda`);
+
+--
 -- Índices de tabela `clientes`
 --
 ALTER TABLE `clientes`
@@ -92,6 +145,12 @@ ALTER TABLE `clientes`
 --
 ALTER TABLE `clientes_contatos`
   ADD PRIMARY KEY (`id_cliente_contato`);
+
+--
+-- Índices de tabela `clientes_enderecos`
+--
+ALTER TABLE `clientes_enderecos`
+  ADD PRIMARY KEY (`id_cliente_endereco`);
 
 --
 -- Índices de tabela `prospects`
@@ -110,6 +169,12 @@ ALTER TABLE `prospects_contato`
 --
 
 --
+-- AUTO_INCREMENT de tabela `agenda`
+--
+ALTER TABLE `agenda`
+  MODIFY `id_agenda` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de tabela `clientes`
 --
 ALTER TABLE `clientes`
@@ -120,6 +185,12 @@ ALTER TABLE `clientes`
 --
 ALTER TABLE `clientes_contatos`
   MODIFY `id_cliente_contato` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de tabela `clientes_enderecos`
+--
+ALTER TABLE `clientes_enderecos`
+  MODIFY `id_cliente_endereco` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `prospects`
