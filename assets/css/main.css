@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+img {max-width: 100%;}
+
+.container {
+	width: calc(100% - 20px);
+	max-width: 1024px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+
+#limpa {clear: both;}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#topo {background: #2a2a2a; height: 100px; width: 100vw;}
+#topo .logo {height: 100px; width: 250px; float: left; text-align: center;}
+#topo .logo img {height: 80px; filter: brightness(1); margin-top: 10px;}
+#topo .titulo {height: 100px; width: calc(100% - 350px); float: left; text-align: center; color: #fff;}
+#topo .titulo h1 {margin-top: 20px; font-size: 30px;}
+#topo .titulo h2 { font-size: 20px;}
+#topo .restrito {height: 100px; width: 100px; float: right;}
+#topo .restrito a {color: #fff; text-decoration: none; display: block; text-align: center; padding: 10px; margin-top: 30px;}
+#topo .restrito a:hover {color: #fffc19;}
+
+#banner {background: #f0f0f0; height: 300px; width: 100vw; border-bottom: 1px solid #2a2a2a;}
+#banner .quem-sou {height: 300px; width: calc(100% - 300px); float: left; text-align: center; color: #2a2a2a;}
+#banner .quem-sou h2 {padding: 5px; margin-top: 5px;}
+#banner .quem-sou p {padding: 10px; text-align: justify; text-indent: 30px;}
+#banner .foto-quem-sou {float: left; width: 280px; height: 280px; padding: 10px;}
+#banner .foto-quem-sou img {width: 100%; height: 100%; border-radius: 5px;}
+
+#conteudo {height: 300px; width: 100vw; border-bottom: 1px solid #2a2a2a;}
+#conteudo .texto-servico {height: 300px; width: calc(100% - 300px); float: left; text-align: center; color: #2a2a2a;}
+#conteudo .texto-servico h2 {padding: 5px; margin-top: 5px; font-size: 20px;}
+#conteudo .texto-servico p {padding: 10px; text-align: justify; text-indent: 30px;}
+#conteudo .foto-servico {float: left; width: 280px; height: 280px; padding: 10px;}
+#conteudo .foto-servico img {width: 100%; height: 100%; border-radius: 5px;}
+
+#contato {background: #f0f0f0; height: 400px; width: 100vw;}
+#contato h2 {text-align: center; padding: 5px; color: #2a2a2a;}
+#contato .formulario {width: 50%; height: 400px; float: left;}
+#contato .formulario form label input {width: calc(100% - 32px); padding: 10px; margin: 5px; border: 1px solid #2a2a2a; border-radius: 5px; outline: none;}
+#contato .formulario form textarea {width: calc(100% - 32px); height: 140px; padding: 10px; margin: 5px; border: 1px solid #2a2a2a; border-radius: 5px; outline: none;}
+#contato .formulario form button {width: calc(100% - 10px); padding: 10px; margin: 5px; border: none; border-radius: 5px; background: #2a2a2a; color: #fff; font-size: 14px; }
+#contato .formulario form button {width: calc(100% - 10px); padding: 10px; margin: 5px; border: none; border-radius: 5px; background: #2a2a2a; color: #fff; font-size: 14px; cursor: pointer;}
+#contato .formulario form button:hover {color: #fffc19; cursor: pointer;}
+#contato .mapa {width: 50%; height: 400px; float: left;}
+#contato .mapa iframe {width: calc(100% - 30px);; height: calc(100% - 50px); border: 1px solid #2a2a2a; border-radius: 5px; margin-left: 15px; margin-top: 5px;}
+
+#rodape {background: #2a2a2a; height: 150px; width: 100vw;}
+#rodape h2 {text-align: center; color: #fff; margin: 10px 0px 5px 0px;}
+#rodape p {text-align: center; color: #fff;}
+#rodape a {color: #fff; text-decoration: none; display: block; text-align: center; padding: 7px;}
+#rodape a:hover {color: #fffc19;}
+#rodape .endereco {height: 150px; width: calc(100% - 500px); float: left; }
+#rodape .links {height: 150px; width: 250px; float: left;}

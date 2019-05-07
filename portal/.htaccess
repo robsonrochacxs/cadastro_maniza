@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteRule ^login/?$ login.php
+RewriteRule ^sair/?$ sair.php
+
+RewriteRule ^dashboard/?$ index.php?page=dashboard
+RewriteRule ^clientes/?$ index.php?page=clientes/lista
+RewriteRule ^clientes/criar?$ index.php?page=clientes/criar
+RewriteRule ^clientes/editar/([0-9]+)?$ index.php?page=clientes/editar&id_cliente=$1
+RewriteRule ^clientes/deletar/(.+)?$ index.php?page=clientes/deletar&ids_cliente=$1
+RewriteRule ^produtos/?$ index.php?page=produtos
+RewriteRule ^configuracoes/?$ index.php?page=configuracoes

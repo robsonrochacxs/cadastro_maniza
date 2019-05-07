@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../fonts/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntubold_italic';
+    src: url('../fonts/ubuntu-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('../fonts/ubuntu-italic-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_lightregular';
+    src: url('../fonts/ubuntu-light-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_lightitalic';
+    src: url('../fonts/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_mediumregular';
+    src: url('../fonts/ubuntu-medium-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu_mediumitalic';
+    src: url('../fonts/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: 'ubunturegular', sans-serif;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#topo {background: #4c4c4c;position: fixed;height: 60px;width: calc(100vw - 200px);top: 0px;right: 0px;}
+#topo .logo {width: 100%; text-align: center; padding: 10px; display: none;}
+#topo .logo img {height: 40px; filter: brightness(0);}
+#topo i {position: absolute; right: 15px; top: 10px; font-size: 40px; color: #fff; cursor: pointer; display: none;}
+
+#coluna {background: #313131;position: fixed;height: 100vh;width: 200px;top: 0px;left: 0px;}
+#coluna .logo {padding: 20px; text-align: center;}
+#coluna .logo img {height: 40px;}
+#coluna ul {}
+#coluna ul li {padding: 10px; border-left: 5px solid #4c4c4c;}
+#coluna ul li.ativo {border-left: 5px solid #fff019; background: rgb(255, 240, 25, 0.22);}
+#coluna ul li:hover {border-left: 5px solid #fff019;}
+#coluna ul li a {color: #fff; text-decoration: none; display: block;}
+
+#conteudo {background: #fff;position: fixed;width: calc(100vw - 230px);height: calc(100vh - 90px);right: 0px;bottom: 0px;overflow-y: scroll;padding: 15px;}
+
+#conteudo table {width: 100%;}
+#conteudo a.adicionar {background: green; color: #fff; text-decoration: none; padding: 5px 10px; text-align: center; border-radius: 5px; float: right; font-size: 13px; margin-bottom: 10px;}
+#conteudo table thead {background: #bdbdbd;}
+#conteudo table thead tr {}
+#conteudo table thead tr th {padding: 10px;}
+#conteudo table thead tr th a.deleta-selecionados {background: red; color: #fff; text-decoration: none; padding: 5px 10px; text-align: center; border-radius: 5px; float: right; font-size: 13px; display: none}
+#conteudo table tbody {}
+#conteudo table tbody tr:nth-child(2n) {background: #f1f1f1;}
+#conteudo table tbody tr td {padding: 5px; font-size: 14px;}
+#conteudo table tbody tr td a.editar {background: blue; color: #fff; text-decoration: none; padding: 5px 10px; text-align: center; border-radius: 5px; float: right; font-size: 13px;}
+
+#conteudo form label p {font-size: 12px; color: #333; margin-bottom: 5px;}
+#conteudo form label input {width: calc(100% - 20px); padding: 10px; margin: 0;border: 1px solid #c0b8b8; border-radius: 4px; margin-bottom: 15px; outline: none;}
+#conteudo form button {border: none; float: right;  padding: 6px 15px; background: blue; color: #fff; font-size: 14px; border-radius: 4px;}
+
+#login {background: #333; width: 100vw; height: 100vh; position: relative;}
+#login form .box { background: #fff; width: 250px; height: 280px; border-radius: 8px; position: absolute; left: calc(50vw - 135px); top: calc(50vh - 140px); padding: 10px;}
+#login form .box h3 {text-align: center; font-size: 20px; margin-top: 20px;}
+#login form .box h4 {text-align: center; background: red; color: white; border-radius: 6px; padding: 6px;}
+#login form .box label {margin-top: 20px; display: block;}
+#login form .box label input {width: calc(100% -22px); padding: 10px; font-size: 16px; border-radius: 6px; border: 1px solid #cecece; outline: none;}
+#login form .box label input:focus {background: #c8e9ff;}
+#login form .box button {width: 100%; height: 40px; border-radius: 6px; background: #333; border: none; color: #fff; font-size: 16px; margin-top: 28px; cursor: pointer;}
+#login form .box button:hover {background: #fff; color: #333;}

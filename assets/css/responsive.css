@@ -1,0 +1,24 @@
+@media (max-width: 920px) {
+    #topo {height: 250px; width: 100%;}
+    #topo .logo {height: 100px; width: 100vw;}
+    #topo .titulo {height: 50px; width: 100vw;}
+    #topo .titulo h1 {font-size: 22px;}
+    #topo .titulo h2 {font-size: 15px;}
+    #topo .restrito {height: 50px; width: 100vw;}
+
+    #banner {height: auto; max-width: 100;}
+
+    #conteudo {height: 700px; width: 100vw; border-bottom: 1px solid #2a2a2a;}
+    #conteudo .texto-servico {height: 300px; width: calc(100% - 300px); float: left; text-align: center; color: #2a2a2a;}
+    #conteudo .foto-servico {float: left; width: 280px; height: 280px; padding: 10px;}
+
+    #contato {height: 600px; width: 100vw;}
+
+    #contato .formulario {width: 100vw; height: 400px;}
+    
+    #contato .mapa {width: 100vw; height: 200px; padding: 0;}
+
+    #rodape {height: 280px; width: 100vw;}
+    #rodape .endereco {height: 160px; width: 100vw;}
+    #rodape .links {height: 120px; width: 50%;}
+}

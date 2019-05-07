@@ -1,0 +1,8 @@
+@media (max-width: 920px) {
+    #topo {width: 100vw;}
+    #topo .logo {display: block;}
+    #topo i {display: block;}
+    #coluna {left: -200px; z-index: 9; transition-duration: 0.5s;}
+    #coluna.show {left: 0px;}
+    #conteudo {width: calc(100vw - 30px); z-index: 8;}
+}
