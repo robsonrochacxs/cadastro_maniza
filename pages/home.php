@@ -5,9 +5,10 @@
         </div>
         <div class="quem-sou">
             <h2>QUEM SOU</h2>
-            <p>Consultor técnico focado na prospecção de clientes, contatos comerciais, negociação e vendas de serviços técnicos para indústria em geral, nas áreas de eletricidade, mecânica e de segurança do trabalho, como projetos e documentação técnica para adequação de normas como NR06, NR09, NR10, NR12, NR13, NR20, NR24, NR26, entre outras.</p>
-            <p>Tenho formação técnica em elétrica e mecânica, com ampla experiência em diversas etapas do processo produtivo de ambas as áreas, como o desenvolvimento de projetos, matéria-prima, fornecedores e execução dos projetos.</p>
-            <p>Sólidos conhecimentos em hidráulica, pneumática, eletrônica, CLP, inversores de frequência, softstarters, sensores e controladores programáveis, automação industrial, processos mecânicos. Experiências no uso de softwares de projetos como AutoCad, SolidWorks, Solid Edge, QC Pró, E3.</p>
+            <p>Consultoria e Repesentação Técnica, focado na prospecção de clientes, contatos comerciais, negociação e vendas de serviços técnicos para indústria em geral, nas áreas de eletricidade, mecânica, segurança do trabalho e desenvolvimento de sistemas.</p>
+            <p>Desenvolvimentos de projetos e documentação técnica para adequação de normas como NR06, NR09, NR10, NR12, NR13, NR20, NR24, NR26, entre outras.</p>
+            <p>Criação de sites, sistemas e aplicativos, para os mais variados setores, sites responsivos, otimizados, sistemas dedicados, lojas virtuais e diversos sistemas.</p>
+            <p>Sólidos conhecimentos em processos industriais, softwares de projetos em plataformas CAD 2D e 3D e também conhecimentos em desenvolvimentos de sistemas.</p>
         </div>
     </div>
 </div>
@@ -58,13 +59,27 @@
     </div>
 </div>
 
+<div id="conteudo">
+    <div class='container'>
+        <div class="texto-servico">
+            <h2>Sites, Sistemas e Aplicativos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere nisl. Nam placerat leo at nunc sollicitudin, et aliquam metus vestibulum. Etiam dolor lectus, porta ut dolor vitae, egestas feugiat mi. Fusce enim elit, faucibus in purus vel, commodo gravida ligula. Vivamus euismod, risus vel tincidunt congue, nisl nisi pharetra purus, in convallis dui justo ac sem. Quisque sodales consectetur elit, pretium ullamcorper urna posuere nec.</p>
+            <p>Pellentesque laoreet scelerisque sem suscipit pellentesque. In id dapibus urna. Aliquam erat volutpat. Suspendisse facilisis, quam eget porttitor porttitor, leo purus varius lacus, sit amet mattis velit risus et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci massa, porta ac ultricies at, gravida vel lorem.</p>
+            <p>Curabitur auctor ac est nec maximus. Vestibulum leo arcu, suscipit ut urna ut, mollis efficitur tortor. Fusce ultricies nisi non nisi tincidunt, quis lacinia dolor volutpat. Morbi feugiat nulla ac sollicitudin fermentum. Quisque non tellus aliquam, hendrerit felis eu, placerat urna.</p>
+        </div>
+        <div class="foto-servico">
+            <img src="assets/img/desenvolvimento.jpg" alt="Foto de notebook.">
+        </div>
+    </div>
+</div>
+
 <div class="limpa"></div>
 
 <div id="contato">
     <div class='container'>
         <div class="formulario">
         <h2>Deixe sua mensagem!</h2>
-            <form method="POST">
+            <form method="POST" action="../mail.php">
                 <label>
                     <input placeholder="Nome:" type="text" name="nome_cliente" required>
                 </label>
