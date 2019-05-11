@@ -9,6 +9,6 @@
     $user = 'root';
     $password = '';
 
-    $base = 'http://localhost/painel_controle/';
-    $path = '/opt/lampp/htdocs/painel_controle/'
+    $base = 'http://localhost/maniza/portal/';
+    $path = '/opt/lampp/htdocs/maniza/portal/'
 ?>

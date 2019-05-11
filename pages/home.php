@@ -1,14 +1,18 @@
 <div id="banner">
+    <div class="foto-quem-sou">
+        <img src="assets/img/banner1.jpg" alt="Representante comercial Caxias do Sul">
+    </div>
+
+<div class="limpa"></div>
+
     <div class='container'>
-        <div class="foto-quem-sou">
-            <img src="assets/img/robson.png" alt="Foto de perfil Robson Rocha">
-        </div>
         <div class="quem-sou">
-            <h2>QUEM SOU</h2>
-            <p>Consultoria e Repesentação Técnica, focado na prospecção de clientes, contatos comerciais, negociação e vendas de serviços técnicos para indústria em geral, nas áreas de eletricidade, mecânica, segurança do trabalho e desenvolvimento de sistemas.</p>
-            <p>Desenvolvimentos de projetos e documentação técnica para adequação de normas como NR06, NR09, NR10, NR12, NR13, NR20, NR24, NR26, entre outras.</p>
-            <p>Criação de sites, sistemas e aplicativos, para os mais variados setores, sites responsivos, otimizados, sistemas dedicados, lojas virtuais e diversos sistemas.</p>
-            <p>Sólidos conhecimentos em processos industriais, softwares de projetos em plataformas CAD 2D e 3D e também conhecimentos em desenvolvimentos de sistemas.</p>
+            <h2>SOLUÇÕES TÉCNICAS</h2>
+            <p>Trabalhamos com Assessoria, Consultoria e Repesentação Técnica, focado na prospecção de clientes e parceiros, contatos comerciais, negociação e vendas de serviços técnicos para indústria em geral, nas áreas de eletricidade, mecânica, segurança do trabalho e desenvolvimento de sistemas.</p>
+            <p>Representamos empresas parceiras e profissionais qualificados, formando uma rede que oferece soluções completas para a indústria em geral, atráves da representação comercial e também da assessoria para encontrar fornecedores, colaboradores e soluções técnicas para as dificuldades de nossos clientes.</p>
+            <p>Rede compostas por empresas de Engenharia e Projetos, Segurança do Traballho, Eletricidade a Automação, Usinagem, Fabricação Mecânica, Serralheira e Calderaria. Também profissionais independentes como Engenheiros, Técnicos de Segurança do Trabalho, Instrutores, Eletricistas, Serralheiros, Montadores.</p>
+            <p>Desenvolvemos projetos e documentação técnica para adequação de normas como NR06, NR09, NR10, NR12, NR13, NR18, NR20, NR24, NR26, NR33 e NR35, além de Treinamentos e Capacitação.</p>
+            <p>Sólidos conhecimentos em processos industriais, softwares de projetos em plataformas CAD 2D e 3D e também conhecimentos em desenvolvimentos de sistemas.</p><br>
         </div>
     </div>
 </div>
@@ -16,59 +20,18 @@
 <div class="limpa"></div>
 
 <div id="conteudo">
-    <div class='container'>
-        <div class="texto-servico">
-            <h2>Montagem e instalação elétrica</h2>
-            <p>Projetos, montagem e instalações de quadros elétricos para os mais variados setores, conforme a necessidade e marca de preferência do cliente.</p>
-            <p>Projetos elétricos de máquinas e equipamentos, projetos para automação industrial e para adequação de máquinas a NR-12. As built de máquinas, instalações e diagramas unifilares. Desenvolvemos também projetos de padrões de entrada para prédios residenciais e comerciais (padrões RGE e CEEE).</p>
-            <p>Serviços de montagem de quadros de comando, instalação de máquinas e equipamentos, programações de CLP’s e relés programáveis e layouts de montagem.</p>
-            <p>Quadros elétricos para construção civil, como quadros de comando para bombas de incêndio e caixas d'água, quadros de comando para exaustores, quadros de disjuntores e tomadas.</p>
-        </div>
-        <div class="foto-servico">
-            <img src="assets/img/eletricidade.jpg" alt="Foto de quadro elétrico.">
-        </div>
+    <div class="foto-serviço">
+            <img src="assets/img/banner2.jpg" alt="Criar sites Caxias do Sul">
     </div>
-</div>
 
-<div id="conteudo">
+<div class="limpa"></div>
+
     <div class='container'>
         <div class="texto-servico">
-            <h2>Fabricação e manutenção mecânica</h2>
-            <p>Prestação de serviços de serralheria, solda, usinagem, pintura, para manutenções industriais preventiva e corretiva de equipamentos e instalações em geral, reforma de máquinas, equipamentos e dispositivos mecânicos.</p>
-            <p>Projeto, fabricação, instalação e manutenção de sistemas de exaustores, estruturas metálicas, dispositivos e máquinas especiais e enclausuramento de máquinas para atendimento de normas de segurança.</p>
-            <p>Terceirização de Mão de Obra para trabalhos em espaços confinados, trabalhos em altura, lubrificação de máquinas, componentes e ferramentas, troca de peças para manutenção e reposição.</p>
-        </div>
-        <div class="foto-servico">
-            <img src="assets/img/mecanica.jpg" alt="Foto de serviço de serralheria.">
-        </div>
-    </div>
-</div>
-
-<div id="conteudo">
-    <div class='container'>
-        <div class="texto-servico">
-            <h2>Engenharia de Segurança do Trabalho</h2>
-            <p>Elaboração de projetos e documentos técnicos para adequações conforme normas regulamentadoras, laudos periciais e serviços relacionados à segurança do trabalho.</p>
-            <p>Grande experiência no atendimento da NR-12 Segurança no Trabalho em Máquinas e Equipamentos, executando trabalhos completos de adequações de máquinas e equipamentos, integrado com a NR-10 Segurança em Instalações e Serviços em Eletricidade.</p>
-            <p>Todos os trabalhos são realizados por equipe técnica e estão aliados a uma Anotação de Responsabilidade Técnica – ART emitida por um profissional legalmente habilitado.</p>
-            <p>Treinamentos e capacitação de segurança do trabalho como CIPA, EPI's, NR10, NR12, NR20, NR33, NR35, RT-14 e primeiros socorros.</p>
-        </div>
-        <div class="foto-servico">
-            <img src="assets/img/seguranca.jpg" alt="Foto de capacetes de segurança.">
-        </div>
-    </div>
-</div>
-
-<div id="conteudo">
-    <div class='container'>
-        <div class="texto-servico">
-            <h2>Sites, Sistemas e Aplicativos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere nisl. Nam placerat leo at nunc sollicitudin, et aliquam metus vestibulum. Etiam dolor lectus, porta ut dolor vitae, egestas feugiat mi. Fusce enim elit, faucibus in purus vel, commodo gravida ligula. Vivamus euismod, risus vel tincidunt congue, nisl nisi pharetra purus, in convallis dui justo ac sem. Quisque sodales consectetur elit, pretium ullamcorper urna posuere nec.</p>
-            <p>Pellentesque laoreet scelerisque sem suscipit pellentesque. In id dapibus urna. Aliquam erat volutpat. Suspendisse facilisis, quam eget porttitor porttitor, leo purus varius lacus, sit amet mattis velit risus et turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci massa, porta ac ultricies at, gravida vel lorem.</p>
-            <p>Curabitur auctor ac est nec maximus. Vestibulum leo arcu, suscipit ut urna ut, mollis efficitur tortor. Fusce ultricies nisi non nisi tincidunt, quis lacinia dolor volutpat. Morbi feugiat nulla ac sollicitudin fermentum. Quisque non tellus aliquam, hendrerit felis eu, placerat urna.</p>
-        </div>
-        <div class="foto-servico">
-            <img src="assets/img/desenvolvimento.jpg" alt="Foto de notebook.">
+            <h2>DESENVOLVIMENTO DE SISTEMAS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur leo ut consectetur cursus. Curabitur non finibus dolor, in pharetra odio. Etiam scelerisque dui metus, auctor placerat dui blandit non. Proin euismod sem a porttitor ullamcorper. Ut quis ante in tellus ornare suscipit a sit amet quam. Sed id tortor ac purus auctor consequat. Sed porta dolor at nisl viverra, dictum volutpat elit lobortis. Quisque convallis sodales nisl, consectetur consectetur metus posuere sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vel lacus ut sapien blandit dapibus eget id enim.</p>
+            <p>Phasellus volutpat eget enim ut pretium. In faucibus, leo sed laoreet tincidunt, arcu tortor tempus ligula, nec consectetur arcu nulla id enim. Quisque viverra, leo in pulvinar pellentesque, risus lectus mollis lacus, nec euismod massa arcu lobortis arcu. Aenean ac varius leo. Nam neque lorem, finibus et placerat nec, interdum mollis libero. Proin elementum pharetra tincidunt. Ut malesuada scelerisque venenatis. Donec ante arcu, viverra sed nibh non, rhoncus luctus neque. Aenean sed mi nec ante facilisis rutrum.</p>
+            <p>Maecenas commodo urna ut sapien cursus dignissim. Vestibulum in cursus ex, vitae tincidunt sem. Quisque sed porttitor risus. Vestibulum nibh magna, tempus imperdiet eros vel, gravida fringilla odio. Donec viverra metus et purus egestas rhoncus. Suspendisse mauris odio, mollis id libero at, egestas egestas magna.</p><br>
         </div>
     </div>
 </div>

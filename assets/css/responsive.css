@@ -1,24 +1,30 @@
 @media (max-width: 920px) {
-    #topo {height: 250px; width: 100%;}
-    #topo .logo {height: 100px; width: 100vw;}
-    #topo .titulo {height: 50px; width: 100vw;}
+    #topo {height: 230px; width: 100%;}
+    #topo .logo {height: 100px; width: 100%;}
+    #topo .titulo {height: 50px; width: 100%;}
     #topo .titulo h1 {font-size: 22px;}
     #topo .titulo h2 {font-size: 15px;}
-    #topo .restrito {height: 50px; width: 100vw;}
+    #topo .restrito {height: 40px; width: 100%;}
 
-    #banner {height: auto; max-width: 100;}
+    #banner {height: auto; max-width: 100%;}
+    #banner .foto-quem-sou {height: auto; max-width: 100%;}
+    #banner .foto-quem-sou img {height: auto; max-width: 100%;}
+    #banner .quem-sou {height: auto; max-width: 100%;}
+    #banner .quem-sou p {font-size: 14px;}
 
-    #conteudo {height: 700px; width: 100vw; border-bottom: 1px solid #2a2a2a;}
-    #conteudo .texto-servico {height: 300px; width: calc(100% - 300px); float: left; text-align: center; color: #2a2a2a;}
-    #conteudo .foto-servico {float: left; width: 280px; height: 280px; padding: 10px;}
+    #conteudo {height: auto; max-width: 100%;}
+    #conteudo .foto-servico {height: auto; max-width: 100%;}
+    #conteudo .foto-servico img {height: auto; max-width: 100%;}
+    #conteudo .texto-servico {height: auto; max-width: 100%;}
+    #conteudo .texto-servico p {font-size: 14px;}
 
-    #contato {height: 600px; width: 100vw;}
 
-    #contato .formulario {width: 100vw; height: 400px;}
-    
-    #contato .mapa {width: 100vw; height: 200px; padding: 0;}
+    #contato {height: 600px; width: 100%;}
+    #contato .formulario {height: 400px; width: 100%;}
+    #contato .mapa {height: 200px; width: 100%;}
 
-    #rodape {height: 280px; width: 100vw;}
-    #rodape .endereco {height: 160px; width: 100vw;}
-    #rodape .links {height: 120px; width: 50%;}
+    #rodape {height: 260px; width: 100%;}
+    #rodape .endereco {height: 160px; width: 100%;}
+    #rodape .links {height: 100px; width: 50%;}
+    #rodape {font-size: 14px;}
 }
