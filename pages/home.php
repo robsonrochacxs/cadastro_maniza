@@ -11,8 +11,7 @@
             <p>Trabalhamos com Assessoria, Consultoria e Repesentação Técnica, focado na prospecção de clientes e parceiros, contatos comerciais, negociação e vendas de serviços técnicos para indústria em geral, nas áreas de eletricidade, mecânica, segurança do trabalho e desenvolvimento de sistemas.</p>
             <p>Representamos empresas parceiras e profissionais qualificados, formando uma rede que oferece soluções completas para a indústria em geral, atráves da representação comercial e também da assessoria para encontrar fornecedores, colaboradores e soluções técnicas para as dificuldades de nossos clientes.</p>
             <p>Rede compostas por empresas de Engenharia e Projetos, Segurança do Traballho, Eletricidade a Automação, Usinagem, Fabricação Mecânica, Serralheira e Calderaria. Também profissionais independentes como Engenheiros, Técnicos de Segurança do Trabalho, Instrutores, Eletricistas, Serralheiros, Montadores.</p>
-            <p>Desenvolvemos projetos e documentação técnica para adequação de normas como NR06, NR09, NR10, NR12, NR13, NR18, NR20, NR24, NR26, NR33 e NR35, além de Treinamentos e Capacitação.</p>
-            <p>Sólidos conhecimentos em processos industriais, softwares de projetos em plataformas CAD 2D e 3D e também conhecimentos em desenvolvimentos de sistemas.</p><br>
+            <p>Com sólidos conhecimentos em processos industriais, softwares de projetos 2D e 3D e também conhecimentos na criação de sites e sistemas, desenvolvemos projetos de máquinas, automação industrial, documentação técnica para adequação de normas de segurança como NR06, NR09, NR10, NR12, NR13, NR18, NR20, NR24, NR26, NR33 e NR35, além de Treinamentos e Capacitação. </p><br>
         </div>
     </div>
 </div>
