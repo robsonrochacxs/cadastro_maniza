@@ -6,18 +6,12 @@
     #topo .titulo h2 {font-size: 15px;}
     #topo .restrito {height: 40px; width: 100%;}
 
-    #banner {height: auto; max-width: 100%;}
-    #banner .foto-quem-sou {height: auto; max-width: 100%;}
-    #banner .foto-quem-sou img {height: auto; max-width: 100%;}
-    #banner .quem-sou {height: auto; max-width: 100%;}
-    #banner .quem-sou p {font-size: 14px;}
-
-    #conteudo {height: auto; max-width: 100%;}
-    #conteudo .foto-servico {height: auto; max-width: 100%;}
-    #conteudo .foto-servico img {height: auto; max-width: 100%;}
-    #conteudo .texto-servico {height: auto; max-width: 100%;}
-    #conteudo .texto-servico p {font-size: 14px;}
-
+    .banner {height: auto; max-width: 100%;}
+    .banner img {height: auto; max-width: 100%;}
+     
+    #texto-banner {height: auto; max-width: 100%;}
+    #texto-banner h2 {height: auto; max-width: 100%;}
+    #texto-banner p {font-size: 14px;}
 
     #contato {height: 600px; width: 100%;}
     #contato .formulario {height: 400px; width: 100%;}

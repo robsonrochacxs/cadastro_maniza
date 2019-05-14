@@ -10,7 +10,7 @@ $mailer->Host = 'smtp.hostinger.com.br';
 
 $mailer->SMTPAuth = true; //Define se haverá autenticação no SMTP
 $mailer->Username = 'robson@maniza.com.br'; //Informe o e-mai o completo
-$mailer->Password = '**********'; //Senha da caixa postal
+$mailer->Password = '********'; //Senha da caixa postal
 $mailer->FromName = 'Contato pelo Site'; //Nome que é exibido
 $mailer->From = 'robson@maniza.com.br'; //Utilizar a mesma caixa postal
 $mailer->AddAddress('robson@maniza.com.br'); //Destinatários
