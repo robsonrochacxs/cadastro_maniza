@@ -7,7 +7,7 @@
     $dbname = 'maniza';
     $host = 'localhost';
     $user = 'root';
-    $password = '';
+    $password = 'root';
 
     $base = 'http://localhost/maniza/portal/';
     $path = '/Applications/MAMP/htdocs/maniza/';
